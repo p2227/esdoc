@@ -32,9 +32,9 @@ ESDoc automatically generates the under contents by Class syntax.
 - Inherited methods and members from super class.
 - Override methods and members from super class.
 
-<img src="./image/feature/class1.png" class="screen-shot">
+<img src="./../files/image/feature/class1.png" class="screen-shot">
 
-<img src="./image/feature/class2.png" class="screen-shot">
+<img src="./../files/image/feature/class2.png" class="screen-shot">
 
 ## ES6 Module
 ESDoc supports ES6 Module syntax and targets a code that is written by it.
@@ -46,7 +46,7 @@ ESDoc displays the import style in accordance with the export style.
 
 This is useful because you not need to see export style in source code.
 
-<img src="./image/feature/module1.png" class="screen-shot">
+<img src="./../files/image/feature/module1.png" class="screen-shot">
 
 ## Documentation Coverage
 ESDoc measures a documentation coverage. This is useful information for following.
@@ -58,7 +58,7 @@ This is based on, ESDoc measures coverage by how much the document is being writ
 And, ESDoc is also to measure coverage of each module, you will have become easier to also find a missing of the document.
 For example, [this](./esdoc/source.html) is coverage of ESDoc itself.
 
-<img src="./image/feature/coverage1.png" class="screen-shot">
+<img src="./../files/image/feature/coverage1.png" class="screen-shot">
 
 ## Integration Test Codes
 Test codes are important information.
@@ -77,9 +77,9 @@ describe('MyClass is super useful class.', ()=>{
 });
 ```
 
-<img src="./image/feature/test1.png" class="screen-shot">
+<img src="./../files/image/feature/test1.png" class="screen-shot">
 
-<img src="./image/feature/test2.png" class="screen-shot">
+<img src="./../files/image/feature/test2.png" class="screen-shot">
 
 However, for now, ESDoc supports only Mocha.
 
@@ -115,9 +115,9 @@ You write manual as markdown and add ``manual`` config.
 
 You can specify a only part of these manuals (e.g. only overview and installation).
 
-<img src="./image/feature/manual1.png" class="screen-shot">
+<img src="./../files/image/feature/manual1.png" class="screen-shot">
 
-<img src="./image/feature/manual2.png" class="screen-shot">
+<img src="./../files/image/feature/manual2.png" class="screen-shot">
 
 ## Search Documentation
 ESDoc supports searching in document with only JavaScript(without server implementation).
@@ -127,7 +127,7 @@ The implementation of searching:
 
 However, this implementation is very naive. There might be a problem in search performance. For now, no problem in 500 indexes.
 
-<img src="./image/feature/search1.png" class="screen-shot">
+<img src="./../files/image/feature/search1.png" class="screen-shot">
 
 ## Guess Type
 ESDoc guesses type of function arguments by ES6 default argument syntax if there is not  ``@param`` at the function.
@@ -146,7 +146,7 @@ export default class Foo {
 }
 ```
 
-<img src="./image/feature/lint.png" class="screen-shot">
+<img src="./../files/image/feature/lint.png" class="screen-shot">
 
 For now, only validate method|function signature.
 
@@ -158,4 +158,4 @@ Please read [API](/api.html) for more information.
 ## ESDoc Hosting Service
 [ESDoc Hosting Service](https://doc.esdoc.org) generates your documentation via GitHub and hosts it.
 
-<img src="./image/feature/hosting1.png" class="screen-shot">
+<img src="./../files/image/feature/hosting1.png" class="screen-shot">
